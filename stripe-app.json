@@ -3,12 +3,21 @@
   "version": "0.0.1",
   "name": "Checkout Custom Field",
   "icon": "",
-  "permissions": [],
+  "permissions": [
+    {
+      "permission": "subscription_read",
+      "purpose": "Retrieve the subscription id to get the checkout session"
+    },
+    {
+      "permission": "checkout_session_read",
+      "purpose": "Load the checkout session to get the custom field data"
+    }
+  ],
   "ui_extension": {
     "views": [
       {
-        "viewport": "stripe.dashboard.customer.detail",
-        "component": "App"
+        "viewport": "stripe.dashboard.subscription.detail",
+        "component": "SubscriptionDetailView"
       }
     ],
     "content_security_policy": {
