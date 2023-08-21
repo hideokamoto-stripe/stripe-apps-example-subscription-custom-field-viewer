@@ -9,8 +9,8 @@ https://stripe.com/docs/stripe-apps/create-app
 ## Get started
 
 ```bash
-% git clone
-% cd
+% git clone git@github.com:hideokamoto-stripe/stripe-apps-example-subscription-custom-field-viewer.git
+% cd stripe-apps-example-subscription-custom-field-viewer
 % npm install
 % stripe apps start
 ```
