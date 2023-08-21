@@ -1,0 +1,20 @@
+{
+  "id": "com.example.checkout-custom-field",
+  "version": "0.0.1",
+  "name": "Checkout Custom Field",
+  "icon": "",
+  "permissions": [],
+  "ui_extension": {
+    "views": [
+      {
+        "viewport": "stripe.dashboard.customer.detail",
+        "component": "App"
+      }
+    ],
+    "content_security_policy": {
+      "connect-src": null,
+      "image-src": null,
+      "purpose": ""
+    }
+  }
+}
